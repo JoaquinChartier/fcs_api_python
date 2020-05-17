@@ -1,1 +1,1 @@
-from main import Forex
+from .main import Forex

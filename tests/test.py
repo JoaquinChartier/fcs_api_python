@@ -1,6 +1,6 @@
 from fcs_api_py import Forex
 
-forex = Forex("YnYoWTp2zMKlO0uncML1wRdPVHJ9Ie1RESxNdP0DifgozAIuBh")
+forex = Forex("YOUR_API_KEY_HERE")
 obj = forex.technical_indicator("EUR/JPY", "1d")
 
 print(obj.response.oa_summary)

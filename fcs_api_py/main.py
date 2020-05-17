@@ -1,6 +1,6 @@
 import requests
 import json
-import response_data_types as rdt
+from . import response_data_types as rdt
 
 class Forex():
     def __init__(self, access_key):

@@ -2,17 +2,16 @@ from distutils.core import setup
 setup(
   name = 'fcs_api_py',         # How you named your package folder (MyLib)
   packages = ['fcs_api_py'],   # Chose the same as "name"
-  version = '1.0',      # Start with a small number and increase it with every change you make
+  version = '1.4',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Unnoficial Python library to do requests on FCS API. https://fcsapi.com/',   # Give a short description about your library
   author = 'Joaquin Chartier',                   # Type in your name
   author_email = 'joak.chartier@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/JoaquinChartier/fcs_api_python',   # Provide either the link to your github or to your website
-  download_url = '',    # I explain this later on
+  # I explain this later on
   keywords = ['API', 'Fcs', 'Forex','Crypto', 'Stock'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
-          'requests',
-          'json',
+          'requests'
       ],
   classifiers=[
     'Development Status :: 4 - Beta',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
